@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(228, 255, 173);
+    text-shadow: 1px 1px 1px rgb(113, 189, 0);
+}
+a{
+    text-decoration: none;
+    /* color: inherit; */
+    color: aliceblue;
+    background-color: rgb(66, 66, 236);
+}
+
+.diferente{
+    text-shadow: none;
+    color: rgb(47, 155, 151);
+}
+
+h1 span{
+    background-color: rgb(60, 218, 235);
+    text-shadow: none;
+}
+
+a{
+    color: rgb(106, 142, 174);
+    background-color: rgb(25, 207, 227);
+    text-shadow: none;
+}
+
+/* Ejemplo especificidad */
+#red{
+    color: rgb(0, 153, 255);
+}
+.blue{
+    color:rgb(6, 35, 61)!important;
+}
+h1{
+    color: greenyellow;
+}
+
