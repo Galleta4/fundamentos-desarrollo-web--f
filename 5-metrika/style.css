@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+/*     background-color: rgb(250, 215, 243);
+ */    padding: 20 px;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+}
+section{
+    background-color: rgb(255, 113, 229);
+}
+.container-content{
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+
+    background-color: blueviolet;
+    margin: auto;
+}
+.card{
+    height: 200px;
+    background-color: rgb(255, 125, 26);
+    flex: 1;
+
+}
+
+.card-box50{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    background-color: aqua;
+}
+
+.card-box100{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(240, 144, 255);
+}
+
+.middle{
+    background-color: rgb(199, 67, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{background-color: rgb(85, 49, 139);}
+.lemon-green{background-color: rgb(255, 171, 53);}
+.tomato{background-color: rgb(235, 70, 42);}
+.pink{background-color: pink;}
+.orange{background-color: orange;}
+.yellow{background-color: yellow;}

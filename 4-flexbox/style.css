@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Padre */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 135, 211);
+    border: 3px solid rgb(255, 181, 121);
+    margin: 40px auto;
+}
+
+/* Hijo */
+.ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(156, 18, 133);
+    border-radius: 10px;
+    border: 3px solid rgb(177, 50, 133);
+    color: white;
+}
+
+.tres{
+    background-color: #fb8484;
+    align-self: flex-start;
+}
