@@ -173,3 +173,17 @@ header{
     cursor: pointer;
 }
 
+/* Primer breakpoint */
+@media screen and (max-width: 768px) {
+    body{
+        background-color: lemonchiffon;
+    }
+
+}
+
+/* segundo breakpoint */
+@media screen and (max-width: 576px) {
+    body{
+        background-color: tomato;
+    }
+}
